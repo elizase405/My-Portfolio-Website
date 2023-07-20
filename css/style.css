@@ -34,8 +34,9 @@ p{
 }
 
 span{
-    writing-mode: vertical-lr;
-    padding-bottom: 360px;
+    writing-mode: vertical-lr
+    padding-bottom: 85%;
+    font-size: 1.2em;
 }
 
 img{
