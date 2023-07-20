@@ -34,8 +34,8 @@ p{
 }
 
 span{
-    writing-mode: vertical-lr
-    padding-bottom: 85%;
+    writing-mode: vertical-lr;
+    padding-bottom: 60%;
     font-size: 1.2em;
 }
 
@@ -49,6 +49,7 @@ main{
     display: grid;
     grid-template-rows: auto auto auto;
     grid-template-columns: auto auto;
+    column-gap: 30px;
 }
 
 .push-img{
@@ -78,6 +79,14 @@ footer{
     }
     .push-img-big{
         margin-top: 70px;
+    }
+    span{
+        writing-mode: vertical-lr;
+        padding-bottom: 85%;
+        font-size: 1.2em;
+    }
+    .header{
+        margin: 0;
     }
 }
 
