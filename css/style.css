@@ -33,8 +33,13 @@ p{
     width: 75%;
 }
 
+span{
+    writing-mode: vertical-lr;
+    padding-bottom: 360px;
+}
+
 img{
-    width: 50%;
+    width: 80%;
     height: auto;
     object-fit: cover;
 }
