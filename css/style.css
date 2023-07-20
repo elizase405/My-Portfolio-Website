@@ -35,12 +35,12 @@ p{
 
 span{
     writing-mode: vertical-lr;
-    padding-bottom: 60%;
+    padding-bottom: 35%;
     font-size: 1.2em;
 }
 
 img{
-    width: 80%;
+    width: 60%;
     height: auto;
     object-fit: cover;
 }
@@ -49,7 +49,6 @@ main{
     display: grid;
     grid-template-rows: auto auto auto;
     grid-template-columns: auto auto;
-    column-gap: 15px;
 }
 
 .push-img{
@@ -73,6 +72,9 @@ footer{
         display: grid;
         grid-template-rows: auto auto;
         grid-template-columns: auto auto auto;
+    }
+    img{
+        width: 80%;
     }
     .push-img{
         margin-top: 0px;
